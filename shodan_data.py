@@ -3,7 +3,7 @@ import sys
 import os.path
 
 if(len(sys.argv) < 3):
-        print "Usage: shodan_parse.py <flags> <file>\n     use -h to see the flags that are available"
+        print "Usage: shodan_data.py <flags> <file>\n     use -h to see the flags that are available"
         sys.exit()
 if(sys.argv[1] == "-h"):
         print " Available Flags:"
