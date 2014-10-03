@@ -2,7 +2,7 @@ import simplejson
 import sys
 import os.path
 
-if(len(sys.argv) < 3):
+if(len(sys.argv) < 2):
         print "Usage: shodan_data.py <flags> <file>\n     use -h to see the flags that are available"
         sys.exit()
 if(sys.argv[1] == "-h"):
