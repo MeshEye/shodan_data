@@ -6,12 +6,12 @@ if(len(sys.argv) < 3):
         print "Usage: shodan_data.py <flags> <file>\n     use -h to see the flags that are available"
         sys.exit()
 if(sys.argv[1] == "-h"):
-        print " Available Flags:"
-        print "         -ip: The IP Address of the host"
-        print "         -isp: The ISP of the host"
-        print "         -org: The org of the host"
-        print "         -port: The open port on Host"
-        print "         -data: The Data field reported on the host"
+        print """ Available Flags:"
+                        -ip: The IP Address of the host"
+                        -isp: The ISP of the host"
+                        -org: The org of the host"
+                        -port: The open port on Host"
+                        -data: The Data field reported on the host"""
         sys.exit()
 if(len(sys.argv) > 8):
         print "Too many arguments"
