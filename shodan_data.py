@@ -13,7 +13,7 @@ if(sys.argv[1] == "-h"):
         print "         -port: The open port on Host"
         print "         -data: The Data field reported on the host"
         sys.exit()
-if(len(sys.argv) > 9):
+if(len(sys.argv) > 8):
         print "Too many arguments"
         sys.exit()
 counter = 1
