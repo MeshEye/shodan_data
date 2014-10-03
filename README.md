@@ -11,4 +11,4 @@ Feel free to add other options or point out better ways to code sections as i'm 
 sudo easy_install simplejson
 
 ### Execution
->python shodan_data.py <flags> <file> 
+>python shodan_data.py flags file 
